@@ -88,3 +88,11 @@ rabbitmqctl set_user_tags full_access administrator
 > Cambiamos la palabra contraseña por la clave que nos interese
 
 > Usar el sudo
+
+## Configurar un cliente en remoto:
+
+Lo podemos hacer desde la consola de administración
+
+La idea seria:
+  * Tener un usuario de administracion
+  * Usuarios que pueda acceder a las colas pero no puedan administrar.
