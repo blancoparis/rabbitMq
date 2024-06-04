@@ -1,0 +1,18 @@
+spring:
+  rabbitmq:
+    host: 192.168.1.42
+    port: 5672
+    username: test
+    password: test
+  application:
+    name: abbitmq-amqp-tutorials
+  profiles:
+    active: usage_message,hello-world,sender,receiver
+
+logging:
+  level:
+    org: ERROR
+
+tutorial:
+  client:
+    duration: 10000
